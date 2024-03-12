@@ -1,7 +1,7 @@
 function App(){
   const [todos, setTodos] = React.useState([
     {
-      text: 'click items on list items to remove',
+      text: 'Click items on list items to remove',
       isCompleted: false,
     },
     {
@@ -9,7 +9,7 @@ function App(){
       isCompleted: false,
     },
     {
-      text: 'get productive',
+      text: 'Get productive',
       isCompleted: false,
     }        
   ]);
