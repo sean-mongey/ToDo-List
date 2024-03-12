@@ -13,16 +13,21 @@ code {
 }
 
 .app {
-  background: #209cee;
+  background: #25333b;
   padding: 30px;
   height: 100vh;
 }
 
 .todo-list{
-  background: #e8e8e8;
-  border-radius: 4px;
-  padding: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #5d7b94;
+  border-radius: 30px;
+  padding: 40px;
   max-width: 400px;
+
  
  
 }
@@ -33,7 +38,7 @@ code {
   padding: 3px 10px;
   font-size: 24px;
   margin-bottom: 6px;
-  border-radius: 3px;
+  border-radius: 3%;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +50,13 @@ code {
   border: 0;
   border-radius: 4px;
   box-shadow: none;
-  padding: 1rem;
+  padding: 2rem;
   height: 2.25em;
   font-size: 24px;
+}
+
+.header{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 7000;
 }
